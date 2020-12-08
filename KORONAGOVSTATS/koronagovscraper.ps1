@@ -1,4 +1,8 @@
-﻿
+﻿### setting params###
+$outfile = "D:\OneDrive\git\VedaPomahaData\KORONAGOVSTATS\koronagovscraping.csv"
+$SendToMyGit = $true
+#####################
+
 Function Send-ToMyGithub {
     $timestamp = get-date -Format "yyyy-MM-dd-HH-mm"
     Set-Location -Path D:\OneDrive\git\VedaPomahaData
@@ -55,7 +59,6 @@ $Record = [PSCustomObject]@{
 
 # Write-Host $LabTests, $LabTestsDelta, $Positives, $PositivesDelta, $AgTests, $AgTestsDelta, $AgPositives, $AgPositivesDelta, $Hospitalized, $HospitalizedDelta, $HospitalizedCovid19, $HospitalizedCovid19Intensive, $HospitalizedCovid19Ventilation, $Deceased, $DeceasedDelta, $Cured, $CuredDelta, $median $LastUpdate
 $timestamp = get-date -Format "yyyy-MM-dd-HH-mm"
-$outfile = "D:\OneDrive\git\VedaPomahaData\KORONAGOVSTATS\koronagovscraping.csv"
  $Record | Export-CSV $outfile  -Encoding UTF8 -Append -Force -NoTypeInformation
 
-Send-ToMyGithub
+ if ($SendToMyGit) {Send-ToMyGithub}
