@@ -29,6 +29,7 @@ $uri = "https://korona.gov.sk/koronavirus-na-slovensku-v-cislach/"
 $result = Invoke-WebRequest -Method GET -UseBasicParsing -Uri $uri
 
 $Record = [PSCustomObject]@{
+    timestamp = get-date -Format "yyyy-MM-dd-HH-mm"
     LastUpdate = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-last-update -->(?<LastUpdate>.*)<!-- /REPLACE -->' -PatternName "LastUpdate"  -htmlbody $result.Content
     LabTests = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-lab-tests -->(?<LabTests>.*)<!-- /REPLACE -->' -PatternName "LabTests"  -htmlbody $result.Content
     LabTestsDelta = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-lab-tests-delta -->(?<LabTestsDelta>.*)<!-- /REPLACE -->' -PatternName "LabTestsDelta"  -htmlbody $result.Content
