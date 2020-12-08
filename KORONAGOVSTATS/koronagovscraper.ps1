@@ -53,10 +53,9 @@ $Record = [PSCustomObject]@{
 
 
 
-## replace with append to CSV
-Write-Host $LabTests, $LabTestsDelta, $Positives, $PositivesDelta, $AgTests, $AgTestsDelta, $AgPositives, $AgPositivesDelta, $Hospitalized, $HospitalizedDelta, $HospitalizedCovid19, $HospitalizedCovid19Intensive, $HospitalizedCovid19Ventilation, $Deceased, $DeceasedDelta, $Cured, $CuredDelta, $median $LastUpdate
+# Write-Host $LabTests, $LabTestsDelta, $Positives, $PositivesDelta, $AgTests, $AgTestsDelta, $AgPositives, $AgPositivesDelta, $Hospitalized, $HospitalizedDelta, $HospitalizedCovid19, $HospitalizedCovid19Intensive, $HospitalizedCovid19Ventilation, $Deceased, $DeceasedDelta, $Cured, $CuredDelta, $median $LastUpdate
 $timestamp = get-date -Format "yyyy-MM-dd-HH-mm"
-$outfile = ".\KORONAGOVSTATS\koronagovscraping.csv"
+$outfile = "D:\OneDrive\git\VedaPomahaData\KORONAGOVSTATS\koronagovscraping.csv"
  $Record | Export-CSV $outfile  -Encoding UTF8 -Append -Force -NoTypeInformation
 
 Send-ToMyGithub
