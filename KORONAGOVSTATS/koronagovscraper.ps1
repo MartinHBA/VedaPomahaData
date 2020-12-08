@@ -19,7 +19,6 @@ function Get-NCZIvalue {
         $PatternName,
         $htmlbody
     )
-    $Matches.Clear()
     $htmlbody -match $Pattern | Out-Null
     $result = $Matches.$PatternName -replace '\s', ''
     Return $result
@@ -30,6 +29,7 @@ $uri = "https://korona.gov.sk/koronavirus-na-slovensku-v-cislach/"
 $result = Invoke-WebRequest -Method GET -UseBasicParsing -Uri $uri
 
 $Record = [PSCustomObject]@{
+    LastUpdate = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-last-update -->(?<LastUpdate>.*)<!-- /REPLACE -->' -PatternName "LastUpdate"  -htmlbody $result.Content
     LabTests = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-lab-tests -->(?<LabTests>.*)<!-- /REPLACE -->' -PatternName "LabTests"  -htmlbody $result.Content
     LabTestsDelta = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-lab-tests-delta -->(?<LabTestsDelta>.*)<!-- /REPLACE -->' -PatternName "LabTestsDelta"  -htmlbody $result.Content
     Positives = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-positives -->(?<Positives_Result>.*)<!-- /REPLACE -->' -PatternName "Positives_Result"  -htmlbody $result.Content
@@ -48,7 +48,6 @@ $Record = [PSCustomObject]@{
     Cured = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-cured -->(?<Cured>.*)<!-- /REPLACE -->' -PatternName "Cured"  -htmlbody $result.Content
     CuredDelta = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-cured-delta -->(?<CuredDelta>.*)<!-- /REPLACE -->' -PatternName "CuredDelta"  -htmlbody $result.Content
     median = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-median -->(?<median>.*)<!-- /REPLACE -->' -PatternName "median"  -htmlbody $result.Content
-    LastUpdate = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-last-update -->(?<LastUpdate>.*)<!-- /REPLACE -->' -PatternName "LastUpdate"  -htmlbody $result.Content
 }
 
 
