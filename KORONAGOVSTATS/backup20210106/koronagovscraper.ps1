@@ -1,6 +1,6 @@
 ﻿### setting params###
 $outfile = "D:\OneDrive\git\VedaPomahaData\KORONAGOVSTATS\koronagovscraping.csv"
-$SendToMyGit = $true
+$SendToMyGit = $false
 #####################
 
 Function Send-ToMyGithub {
@@ -28,45 +28,9 @@ function Get-NCZIvalue {
     Return $result
 }
 
-function Get-VaccinatedLine {
-    [CmdletBinding()]
-    Param
-    (
-        # Param1 help description
-        [Parameter(Mandatory = $true,
-            ValueFromPipelineByPropertyName = $true,
-            Position = 0)]$htmlbody
-    )
-
-$Pattern = '<H3 class="govuk-heading-l govuk-!-margin-bottom-3">(?<vaccinated>.*)</H3>' 
-$resultAll = Select-String $Pattern -input $htmlbody -AllMatches | ForEach-Object {$_.matches}
-$size = ($resultAll.Length)-1
-$newString = $resultAll[$size].Value
-return $newString
-}
 
 $uri = "https://korona.gov.sk/koronavirus-na-slovensku-v-cislach/"
 $result = Invoke-WebRequest -Method GET -UseBasicParsing -Uri $uri
-$vaccinatedLine = Get-VaccinatedLine -htmlbody $result.Content
-
-<#
-$result2 = Invoke-WebRequest -Uri $uri
-
-$resultInnerText = $result2.ParsedHtml.all.tags("h3")| -Object -MemberName innertext
-$resultOuterHTML = $result2.ParsedHtml.all.tags("h3")| ForEach-Object -MemberName outerHTML
-
-
-$resultInnerText
-$resultOuterHTML
-#>
-
-<#
-
-$newString -match $Pattern | Out-Null
-$PatternName = "vaccinated"
-$result = $Matches.$PatternName -replace '\s', ''
-Return $result
-#>
 
 $Record = [PSCustomObject]@{
     timestamp = get-date -Format "yyyy-MM-dd-HH-mm"
@@ -89,13 +53,12 @@ $Record = [PSCustomObject]@{
     Cured = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-cured -->(?<Cured>.*)<!-- /REPLACE -->' -PatternName "Cured"  -htmlbody $result.Content
     CuredDelta = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-cured-delta -->(?<CuredDelta>.*)<!-- /REPLACE -->' -PatternName "CuredDelta"  -htmlbody $result.Content
     median = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-median -->(?<median>.*)<!-- /REPLACE -->' -PatternName "median"  -htmlbody $result.Content
-    vaccinated = Get-NCZIvalue -Pattern '<H3 class="govuk-heading-l govuk-!-margin-bottom-3">(?<vaccinated>.*)</H3>' -PatternName "vaccinated" -htmlbody $vaccinatedLine
 }
 
 
 
 # Write-Host $LabTests, $LabTestsDelta, $Positives, $PositivesDelta, $AgTests, $AgTestsDelta, $AgPositives, $AgPositivesDelta, $Hospitalized, $HospitalizedDelta, $HospitalizedCovid19, $HospitalizedCovid19Intensive, $HospitalizedCovid19Ventilation, $Deceased, $DeceasedDelta, $Cured, $CuredDelta, $median $LastUpdate
 $timestamp = get-date -Format "yyyy-MM-dd-HH-mm"
- $Record | Export-CSV $outfile  -Encoding UTF8 -Append -Force -NoTypeInformation
+ $Record #| Export-CSV $outfile  -Encoding UTF8 -Append -Force -NoTypeInformation
 
  if ($SendToMyGit) {Send-ToMyGithub}
