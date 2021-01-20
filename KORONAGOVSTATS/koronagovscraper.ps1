@@ -40,7 +40,7 @@ function Get-VaccinatedLine {
 
     $Pattern = '<H3 class="govuk-heading-l govuk-!-margin-bottom-3">(?<vaccinated>.*)</H3>' 
     $resultAll = Select-String $Pattern -input $htmlbody -AllMatches | ForEach-Object { $_.matches }
-    $size = ($resultAll.Length) - 1
+    $size = ($resultAll.Length) - 2
     $newString = $resultAll[$size].Value
     return $newString
 }
