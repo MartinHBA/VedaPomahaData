@@ -1,73 +1,73 @@
 ﻿Poradie,OKRES,POZITÍVNI,TESTOVANÍ
-11,Bánovce nad Bebravou,335,17832
-64,Banská Bystrica,312,52876
-39,Banská Štiavnica,73,7740
-69,Bardejov,161,37261
-35,Bratislava,2706,265118
-12,Brezno,559,29801
-27,Bytča,153,13075
-60,Čadca,264,41283
-33,Detva,164,15543
-53,Dolný Kubín,133,17751
-5,Dunajská Streda,1534,67511
-9,Galanta,1051,52916
-48,Gelnica,97,11700
-3,Hlohovec,468,20292
-25,Humenné,316,26215
-44,Ilava,249,28302
-24,Kežmarok,382,31334
-6,Komárno,1154,51767
-15,Košice,1375,80384
-13,Košice - okolie,919,53457
-34,Krupina,94,9081
-54,Kysucké Nové Mesto,97,13086
-2,Levice,1397,56265
-66,Levoča,83,14622
-26,Liptovský Mikuláš,447,37883
-59,Lučenec,255,38482
-28,Malacky,365,31390
-46,Martin,417,49517
-16,Medzilaborce,75,4424
-43,Michalovce,424,47943
-67,Myjava,65,12677
-62,Námestovo,150,24978
-38,Nitra,870,90461
-32,Nové Mesto nad Váhom,319,29910
-17,Nové Zámky,1012,61526
-4,Partizánske,486,21300
-19,Pezinok,474,33446
-49,Piešťany,250,30736
-23,Poltár,110,8688
-45,Poprad,432,50220
-37,Považská Bystrica,254,26208
-41,Prešov,771,84786
-36,Prievidza,641,62845
-61,Púchov,135,22286
-8,Revúca,401,19727
-58,Rimavská Sobota,230,34613
-20,Rožňava,392,28296
-50,Ružomberok,230,29771
-56,Sabinov,184,26582
-7,Šaľa,489,23191
-29,Senec,392,33882
-31,Senica,317,29460
-47,Skalica,192,23014
-30,Snina,178,15583
-52,Sobrance,73,9689
-42,Spišská Nová Ves,330,36391
-51,Stará Ľubovňa,155,20543
-65,Stropkov,30,5119
-70,Svidník,42,11227
 1,Topoľčany,831,32684
+2,Levice,1397,56265
+3,Hlohovec,468,20292
+4,Partizánske,486,21300
+5,Dunajská Streda,1534,67511
+6,Komárno,1154,51767
+7,Šaľa,489,23191
+8,Revúca,401,19727
+9,Galanta,1051,52916
+10,Zlaté Moravce,372,18978
+11,Bánovce nad Bebravou,335,17832
+12,Brezno,559,29801
+13,Košice - okolie,919,53457
+14,Žarnovica,219,12786
+15,Košice,1375,80384
+16,Medzilaborce,75,4424
+17,Nové Zámky,1012,61526
 18,Trebišov,658,46301
-55,Trenčín,435,61445
+19,Pezinok,474,33446
+20,Rožňava,392,28296
+21,Žiar nad Hronom,259,19577
 22,Trnava,893,68049
+23,Poltár,110,8688
+24,Kežmarok,382,31334
+25,Humenné,316,26215
+26,Liptovský Mikuláš,447,37883
+27,Bytča,153,13075
+28,Malacky,365,31390
+29,Senec,392,33882
+30,Snina,178,15583
+31,Senica,317,29460
+32,Nové Mesto nad Váhom,319,29910
+33,Detva,164,15543
+34,Krupina,94,9081
+35,Bratislava,2706,265118
+36,Prievidza,641,62845
+37,Považská Bystrica,254,26208
+38,Nitra,870,90461
+39,Banská Štiavnica,73,7740
+40,Zvolen,311,33269
+41,Prešov,771,84786
+42,Spišská Nová Ves,330,36391
+43,Michalovce,424,47943
+44,Ilava,249,28302
+45,Poprad,432,50220
+46,Martin,417,49517
+47,Skalica,192,23014
+48,Gelnica,97,11700
+49,Piešťany,250,30736
+50,Ružomberok,230,29771
+51,Stará Ľubovňa,155,20543
+52,Sobrance,73,9689
+53,Dolný Kubín,133,17751
+54,Kysucké Nové Mesto,97,13086
+55,Trenčín,435,61445
+56,Sabinov,184,26582
+57,Žilina,581,83989
+58,Rimavská Sobota,230,34613
+59,Lučenec,255,38482
+60,Čadca,264,41283
+61,Púchov,135,22286
+62,Námestovo,150,24978
 63,Turčianske Teplice,44,7388
+64,Banská Bystrica,312,52876
+65,Stropkov,30,5119
+66,Levoča,83,14622
+67,Myjava,65,12677
+68,Vranov nad Topľou,173,34858
+69,Bardejov,161,37261
+70,Svidník,42,11227
 71,Tvrdošín,56,16697
 72,Veľký Krtíš,61,20551
-68,Vranov nad Topľou,173,34858
-14,Žarnovica,219,12786
-21,Žiar nad Hronom,259,19577
-57,Žilina,581,83989
-10,Zlaté Moravce,372,18978
-40,Zvolen,311,33269
