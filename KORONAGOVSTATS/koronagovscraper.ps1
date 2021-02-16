@@ -71,6 +71,8 @@ $Record = [PSCustomObject]@{
     CuredDelta                     = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-cured-delta -->(?<CuredDelta>.*)<!-- /REPLACE -->' -PatternName "CuredDelta"  -htmlbody $result.Content
     median                         = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-median -->(?<median>.*)<!-- /REPLACE -->' -PatternName "median"  -htmlbody $result.Content
     vaccinated                     = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-slovakia_vaccination_all_total -->(?<vaccinated>.*)<!-- /REPLACE -->' -PatternName "vaccinated" -htmlbody $vaccinatedLine
+    vaccinatedDose1                = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-slovakia_vaccination_dose1_total -->(?<vaccinatedDose1>.*)<!-- /REPLACE -->'  -PatternName "vaccinatedDose1"  -htmlbody $result.Content
+    vaccinatedDose2                = Get-NCZIvalue -Pattern '<!-- REPLACE:koronastats-slovakia_vaccination_dose2_total -->(?<vaccinatedDose2>.*)<!-- /REPLACE -->'  -PatternName "vaccinatedDose2"  -htmlbody $result.Content
 }
 
 $timestamp = get-date -Format "yyyy-MM-dd-HH-mm"
