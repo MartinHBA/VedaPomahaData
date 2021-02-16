@@ -1,4 +1,4 @@
-timestamp,LastUpdate,LabTests,LabTestsDelta,Positives,PositivesDelta,AgTests,AgTestsDelta,AgPositives,AgPositivesDelta,Hospitalized,HospitalizedDelta,HospitalizedCovid19,HospitalizedCovid19Intensive,HospitalizedCovid19Ventilation,Deceased,DeceasedDelta,Cured,CuredDelta,median,vaccinated,vaccinatedDose1,vaccinatedDose1
+timestamp,LastUpdate,LabTests,LabTestsDelta,Positives,PositivesDelta,AgTests,AgTestsDelta,AgPositives,AgPositivesDelta,Hospitalized,HospitalizedDelta,HospitalizedCovid19,HospitalizedCovid19Intensive,HospitalizedCovid19Ventilation,Deceased,DeceasedDelta,Cured,CuredDelta,median,vaccinated,vaccinatedDose1,vaccinatedDose2
 2020-12-08-20-51,8.12.2020,1148771,10245,119232,1949,726873,25589,24280,1726,2048,69,1796,133,137,1046,28,87433,2583,1982,,,
 2020-12-09-20-32,9.12.2020,1162048,13277,121796,2564,771710,44837,27357,3077,2083,35,1862,139,131,1084,38,89769,2336,1982,,,
 2020-12-10-23-45,10.12.2020,1177178,15130,124921,3125,803017,31307,29382,2025,2123,40,1900,146,140,1104,20,91455,1686,2070,,,
@@ -69,3 +69,4 @@ timestamp,LastUpdate,LabTests,LabTestsDelta,Positives,PositivesDelta,AgTests,AgT
 2021-02-13-20-30,13.2.2021,1895523,13991,276234,2330,8631440,233710,229385,2924,3782,32,3534,266,320,5812,79,255300,0,2330,,,
 2021-02-14-20-30,13.2.2021,1895523,13991,276234,2330,8631440,233710,229385,2924,3782,32,3534,266,320,5812,79,255300,0,2330,,,
 2021-02-15-20-30,15.2.2021,1905895,2775,278254,572,9288015,249092,234607,2392,3895,83,3628,269,321,5952,67,255300,0,2330,,,
+"2021-02-16-22-00","16.2.2021","1914132","8237","279696","1442","9805401","198311","239514","3100","3872","-23","3683","278","337","6063","111","-","-","2330","","241904","69395"
