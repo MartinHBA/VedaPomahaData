@@ -38,4 +38,19 @@ foreach ($item in $collection) {
 
 }
 
-# Import-Csv -Path myData.csv
+
+
+
+
+<#
+
+
+$importedCSV = Import-Csv -Path "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\data\55.csv"
+
+$data = $importedCSV | %{$_.Dávka} | Group-Object
+
+
+$TimeOfPublish = ($importedCSV | %{$_.'Čas publikovania'} | Group-Object).Name
+$data.'Count' | Where-Object ($_.Name -eq 1)
+
+#>
