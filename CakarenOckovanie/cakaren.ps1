@@ -1,5 +1,6 @@
 ## set directory for git command to be successful
 Set-Location "D:\OneDrive\git\IZA\covid19-data\Vaccination"
+git pull
 
 ## load version list that we already have csv for
 # $versionsLoad = Get-Content "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\versionlist.txt"
