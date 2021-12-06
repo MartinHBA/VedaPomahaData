@@ -40,7 +40,11 @@ foreach ($item in $collection) {
 }
 
 
-
+Set-Location "D:\OneDrive\git\VedaPomahaData"
+git add .
+$timestamp = Get-Date -Format "yyyy-MM-dd HH:mm"
+git commit -m "Updated $($timestamp)"
+git push
 
 
 <#
