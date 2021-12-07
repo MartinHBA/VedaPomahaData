@@ -41,15 +41,17 @@ foreach ($item in $collection) {
 
 }
 
-## all files are downloaded now push it to git repo (not IZA but own repo)
-Set-Location "D:\OneDrive\git\VedaPomahaData"
-git add .
-$timestamp = Get-Date -Format "yyyy-MM-dd HH:mm"
-git commit -m "Updated $($timestamp)"
-git push
 
 
 ## add versions to list of collected versions
 foreach ($item in $collection) {
     $item | Out-File "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\versionlist.txt" -Append -Encoding Ascii
 }
+
+
+## all files are downloaded now push it to git repo (not IZA but own repo)
+Set-Location "D:\OneDrive\git\VedaPomahaData"
+git add .
+$timestamp = Get-Date -Format "yyyy-MM-dd HH:mm"
+git commit -m "Updated $($timestamp)"
+git push
