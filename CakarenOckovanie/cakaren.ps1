@@ -37,7 +37,7 @@ foreach ($item in $collection) {
     $filename = "$($i).csv"
     $uri = "https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/$($item)/Vaccination/OpenData_Slovakia_Vaccination_Cakaren.csv"
     $result = Invoke-WebRequest -Uri $uri -Method GET
-    $result.Content | Out-File -FilePath "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\data\$($filename)"
+    $result.Content | Out-File -FilePath "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\data\$($filename)" -Encoding "utf8"
 
 }
 
