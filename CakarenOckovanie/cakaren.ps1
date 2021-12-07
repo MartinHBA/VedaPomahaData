@@ -16,20 +16,22 @@ foreach ($item in $versionsCheck) {
     $SEL = Select-String -Path "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\versionlist.txt" -Pattern $item
 
     if (!$SEL) {
-        $collection+=$item
+        $collection += $item
+    }
 }
-}
-$collection
+
+
+
 
 ### useful clutter
 ##  $versionsCheck | Out-File "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\versionlist.txt" -Force
 ### git rev-list --all --reverse --pretty=oneline -- OpenData_Slovakia_Vaccination_Cakaren.csv
 
 ## determine last file name to follow naming convention
-$lastFileName = (Get-ChildItem "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\data\"| Sort-Object LastWriteTime | Select-Object -last 1).BaseName
+$lastFileName = (Get-ChildItem "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\data\" | Sort-Object LastWriteTime | Select-Object -last 1).BaseName
 $lastFileNameInt = [int]$lastFileName
 
-$i=$lastFileNameInt
+$i = $lastFileNameInt
 foreach ($item in $collection) {
     $i++
     $filename = "$($i).csv"
@@ -39,7 +41,7 @@ foreach ($item in $collection) {
 
 }
 
-
+## all files are downloaded now push it to git repo (not IZA but own repo)
 Set-Location "D:\OneDrive\git\VedaPomahaData"
 git add .
 $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm"
@@ -47,15 +49,7 @@ git commit -m "Updated $($timestamp)"
 git push
 
 
-<#
-
-
-$importedCSV = Import-Csv -Path "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\data\55.csv"
-
-$data = $importedCSV | %{$_.Dávka} | Group-Object
-
-
-$TimeOfPublish = ($importedCSV | %{$_.'Čas publikovania'} | Group-Object).Name
-$data.'Count' | Where-Object ($_.Name -eq 1)
-
-#>
+## add versions to list of collected versions
+foreach ($item in $collection) {
+    $item | Out-File "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\versionlist.txt" -Append -Encoding Ascii
+}
