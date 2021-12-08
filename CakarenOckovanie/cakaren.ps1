@@ -49,6 +49,14 @@ foreach ($item in $collection) {
 }
 
 
+## calculate trend using python
+$env:Path += ";C:\Programs\Python\Python39";
+$env:PATHEXT += ";.py"; 
+$arg1 = 'D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\PythonScript\calculateTrend.py' 
+$arg2 = $lastFileName
+python $arg1 $arg2
+
+
 ## all files are downloaded now push it to git repo (not IZA but own repo)
 Set-Location "D:\OneDrive\git\VedaPomahaData"
 git add .
