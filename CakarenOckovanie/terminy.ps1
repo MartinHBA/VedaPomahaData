@@ -1,9 +1,13 @@
+## have to be in correct path
+& '.\init.ps1'
 ## set directory for git command to be successful
 Set-Location "D:\OneDrive\git\IZA\covid19-data\Vaccination"
 git pull
 
 ## load version list that we already have csv for
 # $versionsLoad = Get-Content "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\versionlist.txt"
+
+#check-gitversions -file -versionListFile 
 
 ## check if there are newer versions  
 ## rework needed ## to check just newer than commit , some special git command)
