@@ -3,14 +3,16 @@ function update-gitVersions {
         [string] $file,
         [string] $versionListFile
     )
-    
+Set-Location "D:\OneDrive\git\IZA\covid19-data\Vaccination" 
 ## check if there are newer versions  
 ## rework needed ## to check just newer than commit , some special git command)
-$versionsCheck = git rev-list --all --reverse -- $file
 
+$versionsCheck = git rev-list --all --reverse -- $file
+Write-Verbose "$($versionsCheck)"
 ## collection of newer csv
 $collection = @()
 ## check for each git version if we have it or not, if we don't have it in list let's add it to collection
+Write-Verbose "checking in $($versionListFile)"
 foreach ($item in $versionsCheck) {
     $SEL = Select-String -Path $versionListFile -Pattern $item
 

@@ -1,10 +1,11 @@
 ## have to be in correct path
+Set-Location "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie"
 & '.\init.ps1'
 ## set directory for git command to be successful
 Set-Location "D:\OneDrive\git\IZA\covid19-data\Vaccination"
 git pull
 
-$collection = update-gitVersions -file "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\versionlistScheduled.txt" -versionListFile 'OpenData_Slovakia_Vaccination_Scheduled.csv'
+$collection = update-gitVersions -file 'OpenData_Slovakia_Vaccination_Scheduled.csv' -versionListFile "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\versionlistScheduled.txt"
 
 ## determine last file name to follow naming convention
 $lastFileName = (Get-ChildItem "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\dataScheduled\" | Sort-Object LastWriteTime | Select-Object -last 1).BaseName
