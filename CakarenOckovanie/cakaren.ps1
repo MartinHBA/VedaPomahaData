@@ -19,9 +19,11 @@ foreach ($item in $collection) {
     $item | Out-File "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\versionlist.txt" -Append -Encoding Ascii
 }
 
+
 ## calculate trend using python
-if ($i) {
-    python 'D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\PythonScript\calculateTrend.py' $i
+if ($collection) {
+    $numberOfFiles = Get-ChildItem "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\data\" -File | Measure-Object | %{$_.Count}
+    python 'D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\PythonScript\calculateTrend.py' $numberOfFiles
 }
 
 ## all files are downloaded now push it to git repo (not IZA but own repo)
