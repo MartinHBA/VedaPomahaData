@@ -23,7 +23,7 @@ foreach ($item in $result) {
 }
 
 
-$finalCollection | export-Csv -Append -NoClobber -Force -Encoding utf8 -Path "D:\OneDrive\git\VedaPomahaData\omicron\omicron.csv"
+$finalCollection | export-Csv -Append -NoClobber -Force -Encoding utf8 -NoTypeInformation -Path "D:\OneDrive\git\VedaPomahaData\omicron\omicron.csv"
 
 ## git add
 git add .
