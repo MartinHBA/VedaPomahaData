@@ -21,7 +21,7 @@ foreach ($item in $collection) {
 
 ## calculate trend using python
 if ($collection) {
-    $numberOfFiles = Get-ChildItem "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\dataScheduled\" -File | Measure-Object | %{$_.Count}
+    $numberOfFiles = Get-ChildItem "D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\dataScheduled\" -File | Measure-Object | ForEach-Object {$_.Count}
     python 'D:\OneDrive\git\VedaPomahaData\CakarenOckovanie\PythonScript\calculateTrendScheduled.py' $numberOfFiles
 }
 
