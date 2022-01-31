@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-31T20:41:41.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="aLF80fo6Qh1kczjQW8Cc" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-31T20:50:13.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="naV5Njd6auNASd_jqiAe" version="16.5.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2062" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,22 +13,22 @@
         <mxCell id="O-huJamN4KFAZXkcdXTO-58" value="01-2020..06-2020" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="O-huJamN4KFAZXkcdXTO-73" vertex="1">
           <mxGeometry x="130" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1GIO7L6-9H1EDn3HfB6s-6" value="" style="group" vertex="1" connectable="0" parent="O-huJamN4KFAZXkcdXTO-73">
+        <mxCell id="1GIO7L6-9H1EDn3HfB6s-6" value="" style="group" parent="O-huJamN4KFAZXkcdXTO-73" vertex="1" connectable="0">
           <mxGeometry width="240" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="1GIO7L6-9H1EDn3HfB6s-1" value="Permanentný krízový štáb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1GIO7L6-9H1EDn3HfB6s-6">
+        <mxCell id="1GIO7L6-9H1EDn3HfB6s-1" value="Permanentný krízový štáb" style="rounded=0;whiteSpace=wrap;html=1;" parent="1GIO7L6-9H1EDn3HfB6s-6" vertex="1">
           <mxGeometry x="60" y="35" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1GIO7L6-9H1EDn3HfB6s-2" value="Poradný orgán" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1GIO7L6-9H1EDn3HfB6s-6">
+        <mxCell id="1GIO7L6-9H1EDn3HfB6s-2" value="Poradný orgán" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1GIO7L6-9H1EDn3HfB6s-6" vertex="1">
           <mxGeometry x="90" y="95" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="1GIO7L6-9H1EDn3HfB6s-3" value="" style="group" vertex="1" connectable="0" parent="1GIO7L6-9H1EDn3HfB6s-6">
+        <mxCell id="1GIO7L6-9H1EDn3HfB6s-3" value="" style="group" parent="1GIO7L6-9H1EDn3HfB6s-6" vertex="1" connectable="0">
           <mxGeometry width="240" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="1GIO7L6-9H1EDn3HfB6s-4" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1GIO7L6-9H1EDn3HfB6s-3">
+        <mxCell id="1GIO7L6-9H1EDn3HfB6s-4" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1GIO7L6-9H1EDn3HfB6s-3" vertex="1">
           <mxGeometry width="240" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="1GIO7L6-9H1EDn3HfB6s-5" value="01-2020..06-2020" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1GIO7L6-9H1EDn3HfB6s-3">
+        <mxCell id="1GIO7L6-9H1EDn3HfB6s-5" value="01-2020..06-2020" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1GIO7L6-9H1EDn3HfB6s-3" vertex="1">
           <mxGeometry x="130" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="O-huJamN4KFAZXkcdXTO-10" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -213,6 +213,23 @@
         </mxCell>
         <mxCell id="O-huJamN4KFAZXkcdXTO-57" value="Poradný orgán" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="880" y="705" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pk2AtxekJEOgL15Q96yd-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pk2AtxekJEOgL15Q96yd-1" target="O-huJamN4KFAZXkcdXTO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pk2AtxekJEOgL15Q96yd-1" value="Ústredný krízový štáb" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="620" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pk2AtxekJEOgL15Q96yd-2" value="minister vnútra SR&#xa;minister zahraničných vecí SR&#xa;minister obrany SR&#xa;zástupcovia iných ministerstiev a organizácií" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="Pk2AtxekJEOgL15Q96yd-1">
+          <mxGeometry y="30" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Pk2AtxekJEOgL15Q96yd-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O-huJamN4KFAZXkcdXTO-28" target="O-huJamN4KFAZXkcdXTO-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="863" />
+              <mxPoint x="790" y="503" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
