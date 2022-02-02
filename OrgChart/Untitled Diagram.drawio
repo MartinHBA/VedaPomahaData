@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net" modified="2022-01-31T20:17:38.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="0ZInXe7bvXAJJC0yezNe" version="16.5.2" type="github">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="2062" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O-huJamN4KFAZXkcdXTO-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="314" y="622.5" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-9" value="" style="group" vertex="1" connectable="0" parent="O-huJamN4KFAZXkcdXTO-10">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-9">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-8" value="Riadny orgán SR" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-9">
+          <mxGeometry y="2.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-5" value="Úrad vlády SR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-10">
+          <mxGeometry x="30" y="22.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="524" y="610" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-3" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-12">
+          <mxGeometry width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-4" value="Pandemická komisia" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-12">
+          <mxGeometry x="60" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-11" value="Poradný orgán" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-12">
+          <mxGeometry x="90" y="95" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="64" y="622.5" width="190" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-14" value="" style="group" vertex="1" connectable="0" parent="O-huJamN4KFAZXkcdXTO-13">
+          <mxGeometry width="190" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-14">
+          <mxGeometry width="190" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-16" value="Riadny orgán SR" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-14">
+          <mxGeometry y="2.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-17" value="Ústredný krízový štáb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-13">
+          <mxGeometry x="31.666666666666668" y="22.5" width="126.66666666666667" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O-huJamN4KFAZXkcdXTO-15" target="O-huJamN4KFAZXkcdXTO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="O-huJamN4KFAZXkcdXTO-3" target="O-huJamN4KFAZXkcdXTO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="314" y="810" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-22" value="" style="group" vertex="1" connectable="0" parent="O-huJamN4KFAZXkcdXTO-21">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-22">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-24" value="Riadny orgán SR" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-22">
+          <mxGeometry y="2.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-25" value="Ministerstvo zdravotníctva SR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-21">
+          <mxGeometry x="30" y="22.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="O-huJamN4KFAZXkcdXTO-23" target="O-huJamN4KFAZXkcdXTO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="524" y="797.5" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-28" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-27">
+          <mxGeometry width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-29" value="Konzílium odborníkov" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-27">
+          <mxGeometry x="60" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-30" value="Poradný orgán" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-27">
+          <mxGeometry x="90" y="95" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O-huJamN4KFAZXkcdXTO-28" target="O-huJamN4KFAZXkcdXTO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-33" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="69" y="450" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-34" value="" style="group" vertex="1" connectable="0" parent="O-huJamN4KFAZXkcdXTO-33">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-34">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-36" value="Riadny orgán SR" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-34">
+          <mxGeometry y="2.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-37" value="Národná rada SR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-33">
+          <mxGeometry x="30" y="22.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-38" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="554" y="450" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-39" value="" style="group" vertex="1" connectable="0" parent="O-huJamN4KFAZXkcdXTO-38">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-39">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-41" value="Riadny orgán SR" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-39">
+          <mxGeometry y="2.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-42" value="Úrad verejného zdravotníctva SR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O-huJamN4KFAZXkcdXTO-38">
+          <mxGeometry x="30" y="22.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-43" value="Zákon" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="119" y="260" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-44" value="Vyhláška hlavného hygienika" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="604" y="260" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-45" value="Uznesenie vlády" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="364" y="260" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="O-huJamN4KFAZXkcdXTO-6" target="O-huJamN4KFAZXkcdXTO-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.427;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="O-huJamN4KFAZXkcdXTO-8" target="O-huJamN4KFAZXkcdXTO-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="O-huJamN4KFAZXkcdXTO-35" target="O-huJamN4KFAZXkcdXTO-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O-huJamN4KFAZXkcdXTO-6" target="O-huJamN4KFAZXkcdXTO-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="O-huJamN4KFAZXkcdXTO-40" target="O-huJamN4KFAZXkcdXTO-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

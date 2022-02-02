@@ -1,0 +1,269 @@
+<mxfile host="app.diagrams.net" modified="2022-02-01T11:47:50.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="mA8xyxOCN7UrmTxCpPwb" version="16.5.2" type="github">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="2889" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O-huJamN4KFAZXkcdXTO-73" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="790" y="610" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-55" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-73" vertex="1">
+          <mxGeometry width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-58" value="01-2020..06-2020" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="O-huJamN4KFAZXkcdXTO-73" vertex="1">
+          <mxGeometry x="130" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1GIO7L6-9H1EDn3HfB6s-6" value="" style="group" parent="O-huJamN4KFAZXkcdXTO-73" vertex="1" connectable="0">
+          <mxGeometry width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1GIO7L6-9H1EDn3HfB6s-1" value="Permanentný krízový štáb" style="rounded=0;whiteSpace=wrap;html=1;" parent="1GIO7L6-9H1EDn3HfB6s-6" vertex="1">
+          <mxGeometry x="60" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1GIO7L6-9H1EDn3HfB6s-2" value="Poradný orgán" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1GIO7L6-9H1EDn3HfB6s-6" vertex="1">
+          <mxGeometry x="90" y="95" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1GIO7L6-9H1EDn3HfB6s-3" value="" style="group" parent="1GIO7L6-9H1EDn3HfB6s-6" vertex="1" connectable="0">
+          <mxGeometry width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1GIO7L6-9H1EDn3HfB6s-4" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1GIO7L6-9H1EDn3HfB6s-3" vertex="1">
+          <mxGeometry width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1GIO7L6-9H1EDn3HfB6s-5" value="01-2020..06-2020" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1GIO7L6-9H1EDn3HfB6s-3" vertex="1">
+          <mxGeometry x="130" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-10" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="314" y="622.5" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-9" value="" style="group" parent="O-huJamN4KFAZXkcdXTO-10" vertex="1" connectable="0">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-9" vertex="1">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-8" value="Riadny orgán SR" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="O-huJamN4KFAZXkcdXTO-9" vertex="1">
+          <mxGeometry y="2.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-5" value="Úrad vlády SR" style="rounded=0;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-10" vertex="1">
+          <mxGeometry x="30" y="22.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-12" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="524" y="610" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-3" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-12" vertex="1">
+          <mxGeometry width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-4" value="Pandemická komisia" style="rounded=0;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-12" vertex="1">
+          <mxGeometry x="60" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-11" value="Poradný orgán" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="O-huJamN4KFAZXkcdXTO-12" vertex="1">
+          <mxGeometry x="90" y="95" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-13" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="64" y="622.5" width="190" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-14" value="" style="group" parent="O-huJamN4KFAZXkcdXTO-13" vertex="1" connectable="0">
+          <mxGeometry width="190" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-14" vertex="1">
+          <mxGeometry width="190" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-16" value="Riadny orgán SR" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="O-huJamN4KFAZXkcdXTO-14" vertex="1">
+          <mxGeometry y="2.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-17" value="Ústredný krízový štáb" style="rounded=0;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-13" vertex="1">
+          <mxGeometry x="31.666666666666668" y="22.5" width="126.66666666666667" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-15" target="O-huJamN4KFAZXkcdXTO-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-3" target="O-huJamN4KFAZXkcdXTO-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="682" />
+              <mxPoint x="530" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-21" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="314" y="810" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-22" value="" style="group" parent="O-huJamN4KFAZXkcdXTO-21" vertex="1" connectable="0">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-22" vertex="1">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-24" value="Riadny orgán SR" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="O-huJamN4KFAZXkcdXTO-22" vertex="1">
+          <mxGeometry y="2.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-25" value="Ministerstvo zdravotníctva SR" style="rounded=0;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-21" vertex="1">
+          <mxGeometry x="30" y="22.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-23" target="O-huJamN4KFAZXkcdXTO-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-27" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="524" y="797.5" width="256" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-28" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-27" vertex="1">
+          <mxGeometry width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-29" value="Konzílium odborníkov" style="rounded=0;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-27" vertex="1">
+          <mxGeometry x="60" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-30" value="Poradný orgán" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="O-huJamN4KFAZXkcdXTO-27" vertex="1">
+          <mxGeometry x="90" y="95" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-74" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica&quot;&gt;?????? ....2022&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-27" vertex="1">
+          <mxGeometry x="146" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.16;exitY=0.55;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-28" target="O-huJamN4KFAZXkcdXTO-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="869" />
+              <mxPoint x="530" y="863" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-33" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="69" y="450" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-34" value="" style="group" parent="O-huJamN4KFAZXkcdXTO-33" vertex="1" connectable="0">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-34" vertex="1">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-36" value="Riadny orgán SR" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="O-huJamN4KFAZXkcdXTO-34" vertex="1">
+          <mxGeometry y="2.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-37" value="Národná rada SR" style="rounded=0;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-33" vertex="1">
+          <mxGeometry x="30" y="22.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-38" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="554" y="450" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-39" value="" style="group" parent="O-huJamN4KFAZXkcdXTO-38" vertex="1" connectable="0">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-39" vertex="1">
+          <mxGeometry width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-41" value="Riadny orgán SR" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="O-huJamN4KFAZXkcdXTO-39" vertex="1">
+          <mxGeometry y="2.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-42" value="Úrad verejného zdravotníctva SR" style="rounded=0;whiteSpace=wrap;html=1;" parent="O-huJamN4KFAZXkcdXTO-38" vertex="1">
+          <mxGeometry x="30" y="22.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-43" value="Zákon" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="119" y="260" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-44" value="Vyhláška hlavného hygienika" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="604" y="260" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-45" value="Uznesenie vlády" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="364" y="260" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-6" target="O-huJamN4KFAZXkcdXTO-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.427;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-8" target="O-huJamN4KFAZXkcdXTO-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-35" target="O-huJamN4KFAZXkcdXTO-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-6" target="O-huJamN4KFAZXkcdXTO-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-40" target="O-huJamN4KFAZXkcdXTO-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-55" target="O-huJamN4KFAZXkcdXTO-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="922" y="760" />
+              <mxPoint x="449" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-64" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-60" target="O-huJamN4KFAZXkcdXTO-55" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1066" y="580" />
+              <mxPoint x="1066" y="701" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-60" value="Permanentný krízový štáb" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1101" y="580" width="339" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-61" value="Petr Škodný&#xa;Robert Mistrík&#xa;Peter Visolajský" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="O-huJamN4KFAZXkcdXTO-60" vertex="1">
+          <mxGeometry y="30" width="339" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-65" value="Konzílium odborníkov" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="1101" y="710" width="339" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-66" value="doc. MUDr. Mária Avdičová, PhD. - epidemiológ&#xa;prof. MUDr. Henrieta Hudečková, PhD., MPH - epidemiológ&#xa;prof. MUDr. Pavol Jarčuška, PhD. - infektológ&#xa;prof. MUDr. Zuzana Krištúfková, PhD., MPH - epidemiológ&#xa;MUDr. Alena Koščálová, MSc. - infektológ&#xa;MUDr. Elena Prokopová - pediater&#xa;prof. MUDr. Mária Štefkovičová, PhD., MPH epidemiológ&#xa;prof. MUDr. Jozef Šuvada, PhD., MPH, expert WHO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="O-huJamN4KFAZXkcdXTO-65" vertex="1">
+          <mxGeometry y="30" width="339" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" parent="1" source="O-huJamN4KFAZXkcdXTO-65" target="O-huJamN4KFAZXkcdXTO-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="710" />
+              <mxPoint x="1000" y="902" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-75" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica&quot;&gt;?????? ....2022&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="610" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-56" value="Permanentný krízový štáb" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O-huJamN4KFAZXkcdXTO-57" value="Poradný orgán" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="880" y="705" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pk2AtxekJEOgL15Q96yd-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Pk2AtxekJEOgL15Q96yd-1" target="O-huJamN4KFAZXkcdXTO-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pk2AtxekJEOgL15Q96yd-1" value="Ústredný krízový štáb" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="620" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pk2AtxekJEOgL15Q96yd-2" value="minister vnútra SR&#xa;minister zahraničných vecí SR&#xa;minister obrany SR&#xa;zástupcovia iných ministerstiev a organizácií" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="Pk2AtxekJEOgL15Q96yd-1" vertex="1">
+          <mxGeometry y="30" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Pk2AtxekJEOgL15Q96yd-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-15" target="O-huJamN4KFAZXkcdXTO-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159" y="620" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pk2AtxekJEOgL15Q96yd-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-15" target="O-huJamN4KFAZXkcdXTO-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pk2AtxekJEOgL15Q96yd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="O-huJamN4KFAZXkcdXTO-28" target="O-huJamN4KFAZXkcdXTO-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="863" />
+              <mxPoint x="780" y="503" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fkyLU02iiaMiEEFfuNe7-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.88;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fkyLU02iiaMiEEFfuNe7-1" target="O-huJamN4KFAZXkcdXTO-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="340" />
+              <mxPoint x="850" y="643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fkyLU02iiaMiEEFfuNe7-1" value="Pandemická komisia" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1101" y="340" width="339" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fkyLU02iiaMiEEFfuNe7-2" value="ministri SR&#xa;predsedovia samosprávnych krajov&#xa;generálni riaditelia zdravotných poisťovní&#xa;hlavný hygienik Slovenskej republiky&#xa;hlavný odborník MZSR - epidemiológ &#xa;hlavný odborník MZSR - infektológ&#xa;hlavný odborník MZSR - všeobecnú starostlivosť o deti a dorast&#xa;hlavný odborník MZSR - všeobecné lekárstvo&#xa;prezident Asociácie štátnych nemocníc Slovenskej republiky&#xa;prezident Asociácie nemocníc Slovenska&#xa;predseda Slovenskej akadémie vied" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="fkyLU02iiaMiEEFfuNe7-1">
+          <mxGeometry y="30" width="339" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
