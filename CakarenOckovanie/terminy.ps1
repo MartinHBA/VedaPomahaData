@@ -27,6 +27,7 @@ if ($collection) {
 
 ## all files are downloaded now push it to git repo (not IZA but own repo)
 Set-Location "D:\OneDrive\git\VedaPomahaData"
+git pull
 git add .
 $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm"
 git commit -m "Updated $($timestamp)"
