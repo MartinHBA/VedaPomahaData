@@ -1,4 +1,4 @@
-Pripravím podrobnú analýzu vplyvu projektu PVE Málinec na pitnú vodu so všetkými relevantnými aspektmi. Zameriam sa na dopady počas výstavby aj prevádzky, porovnanie so svetovými projektmi, ktoré používajú dolnú nádrž ako zásobáreň pitnej vody, a ekonomické aspekty ochrany vodných zdrojov. Správa bude obsahovať podrobné kapitoly s vedeckými podkladmi a príkladmi osvedčených postupov.
+
 
 ### **1. Úvod**  
  ([
